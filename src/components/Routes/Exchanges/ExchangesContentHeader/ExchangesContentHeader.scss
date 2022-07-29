@@ -1,0 +1,41 @@
+.exchang-content-data{
+    display: flex;
+    margin: 0px 0 0 0;
+    background: rgb(255, 255, 255) linear-gradient(to right, rgb(63, 81, 181), rgb(100, 181, 246)) repeat scroll 0% 0% !important;
+    position: relative;
+      .exchang-content-data-container{
+      height: 150px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      // justify-content: space-between;
+      
+       margin:auto
+      
+        }
+        
+        .exchang-content-data-text-container{
+          display: flex;
+          // justify-content: space-between;
+          flex-direction: column;
+          justify-content: center;
+          margin-right: 90px;
+          margin-top: -85px;
+  
+         .label{
+            color: white;
+           
+            display: flex;
+            // justify-content: space-between;
+            font-size: 14px;
+           
+         }
+         .value{
+          color: white;;
+          display: flex;
+          font-size: 14px;
+         }
+          }
+        }
+   
+    

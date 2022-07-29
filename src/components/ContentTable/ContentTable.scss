@@ -1,0 +1,39 @@
+.ant-pagination-item{
+    padding-top:6px ;
+}
+.ant-table table {
+    width: 100%;
+    text-align: left;
+    border-radius: 2px 2px 0 0;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin-top: 68px;
+}
+.ant-table-cell{
+    padding: 8px !important;
+}
+
+// .name-img{
+//     width:"33px" !important;
+//      margin:"0 10px 0 0" !important;
+//       display:"inline-block" !important;
+
+// }
+.iconTableImg{
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.iconTableLink{
+    &:hover{
+        text-decoration: underline;
+    }
+}
+
+.color-change,.rank-style{
+    text-align: center!important;
+    display: block !important;
+}
+
+//////////////////////////////////////////

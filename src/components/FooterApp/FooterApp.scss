@@ -1,0 +1,89 @@
+.FooterApp{
+    width: 100%;
+    background: rgb(255, 255, 255) linear-gradient(to right, rgb(63, 81, 181), rgb(100, 181, 246)) repeat scroll 0% 0% !important;
+    color: #fff;
+ 
+    display: flex;
+    .footer-Container{
+        margin: 0 116px;
+        
+        // display: flex;
+        // flex-direction: row;
+        // justify-content: center;
+        margin: auto;
+    }   
+}
+.ListItem{
+  width: 25%;
+  text-align: left;
+  float: left;
+  .item{
+      
+      a{
+          font-size: 15px;
+          color: #fff;
+          opacity: 0.5;
+          cursor: pointer;
+         
+        }
+      }
+     
+  }
+
+  .Title{
+      font-size: 15px !important;
+      opacity: 1 !important;
+      color: #fff;
+  }
+
+  .list-Span{
+      font-size: 8px ;
+      color: #fff;
+      opacity: 0.5;
+      margin: 5px 20px 0 0;
+      display: block;
+      
+
+  }
+  .list-ItemBox{
+      margin-bottom: 25px;
+      
+  }
+ 
+.ICon{
+    font-size: 18px;
+    width: 20px;
+}
+
+////////////
+
+   
+    @media only screen and (max-width:480px) {
+
+        .ant-layout-header{
+            width: 100%;
+            gap: 0;
+            box-shadow:  rgb(0 0 0 / 40%) 0px 2px 15px -3px;
+            
+            .header-link{
+                display: none;
+            }
+            .header-logo{
+                justify-content: center;
+            }
+            .header-icon{
+                .searchOutlined{
+                    justify-content: right !important;
+                   
+    
+                 }
+                .settingOutLined,.contentWallet{
+                    display: none;
+                    
+                }
+               
+            }
+        }
+      }
+
+

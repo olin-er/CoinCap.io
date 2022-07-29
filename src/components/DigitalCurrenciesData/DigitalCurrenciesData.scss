@@ -1,0 +1,87 @@
+.header-currency{
+    display: flex;
+    width: 100%;
+    gap: 30px;
+    
+    .data-Wrapper{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        margin-bottom: 10px;
+        
+        
+        .data-currency{
+            width: 100%;
+            display: flex;
+    
+            .col-left-data-currency{
+                flex-grow: 1;
+                display: flex;
+                background-color: rgb(255, 255, 255);
+                
+                .img-col-left-data-currency{
+                    margin: 34px 0  0 29px;
+                    img{
+                        border-radius: 100%;
+                        width: 60px;
+                        height: 60px;
+                    }
+                }
+                .text-col-left-data-currency{
+                    padding: 37px 0 0 30px;
+                   h3{
+                    font-size: 25px;
+                    font-weight: bold;
+                    line-height: 1.2;
+                   }
+                }
+            }
+            .col-right-data-currency{
+                flex-grow: 2;
+                display: flex;
+                padding: 38px 0 14px 10px;
+               
+                .column-Left-right-data-currency{
+                    flex-grow: 1;
+                    h5{
+                        padding: 0 0 20px 0;
+                        justify-content: left;
+                        display: flex;
+                        span{
+                            padding-right: 16px;
+                            font-weight: bold;
+                            color: rgb(0, 0, 0);
+                        }
+                    }
+                   
+                    
+                }
+                .column-Right-right-data-currency{
+                    flex-grow: 1;
+                    h5{
+                        padding: 0 0 20px 0;
+                        justify-content: left;
+                        display: flex;
+                        span{
+                            padding-right: 16px;
+                            font-weight: bold;
+                            color: rgb(0, 0, 0);
+                            
+                            text-align: left;
+                        }
+                    }
+                  
+                }
+            }
+        }
+     
+        
+    }
+    
+   
+}
+
+
+
+

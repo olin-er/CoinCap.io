@@ -1,0 +1,17 @@
+@import '~antd/dist/antd.css';
+/* 
+.App {
+  text-align: right;
+} */
+
+.header-content{
+  background: rgb(255, 255, 255) linear-gradient(to right, rgb(63, 81, 181), rgb(100, 181, 246)) repeat scroll 0% 0% !important;
+  height: 250px;
+  margin-top: 25px;
+  position: relative;
+  }
+
+
+
+
+

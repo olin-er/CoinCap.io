@@ -1,0 +1,37 @@
+.ant-table-container{
+    
+    width:1200px;
+    // border-radius:2%
+}
+.ant-pagination-item{
+    padding-top:6px ;
+}
+
+.ant-table-cell{
+    padding: 8px !important;
+}
+
+// .name-img{
+//     width:"33px" !important;
+//      margin:"0 10px 0 0" !important;
+//       display:"inline-block" !important;
+
+// }
+.iconTableImg{
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.iconTableLink{
+    &:hover{
+        text-decoration: underline;
+    }
+}
+
+.color-change,.rank-style{
+    text-align: center!important;
+    display: block !important;
+}
+
+

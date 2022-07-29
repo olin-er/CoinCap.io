@@ -1,0 +1,90 @@
+.header-content-data{
+  display: flex;
+  margin: 65px 0 0 0;
+  background: rgb(255, 255, 255) linear-gradient(to right, rgb(63, 81, 181), rgb(100, 181, 246)) repeat scroll 0% 0% !important;
+  position: relative;
+    .header-content-data-container{
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    
+    
+     margin:auto
+    
+      }
+      
+      .header-content-data-text-container{
+        display: flex;
+        // justify-content: space-between;
+        flex-direction: column;
+        justify-content: center;
+        margin-right: 90px;
+        margin-top: -85px;
+
+       .label{
+          color: white;
+         
+          display: flex;
+          // justify-content: space-between;
+          font-size: 14px;
+         
+       }
+       .value{
+        color: white;;
+        display: flex;
+        font-size: 14px;
+       }
+        }
+      }
+ 
+  /////////////////////////////////////////////\
+  @media only screen and (max-width:780px){
+    .header-content-data{width: 100%;}
+    .header-content-data-container{
+      padding: 10px 0 0 0 !important;
+      justify-content: center;
+      gap: 15px !important;
+      // width: 75% !important;
+      width: 100%;
+      
+      // box-shadow:  rgb(0 0 0 / 40%) 0px 2px 15px -3px;
+    }
+  }
+//////////////////////////////////////////////////////////////////////
+//   @media only screen and (max-width:480px) {
+//     .header-content-data{
+//       display: none;
+//     }
+//   }
+
+
+// ///////////////////////////////////
+
+// @media only screen and (max-width:780px) {
+
+//   .ant-layout-header{
+//       width: 100%;
+//       gap: 0;
+//       box-shadow:  rgb(0 0 0 / 40%) 0px 2px 15px -3px;
+      
+//       .header-link{
+//           display: none;
+//       }
+//       .header-logo{
+//           justify-content: center;
+//       }
+//       .header-icon{
+//           .searchOutlined{
+//               justify-content: right !important;
+//               // margin: 10px 0 0 110px;
+
+//            }
+//           .settingOutLined,.contentWallet{
+//               display: none;
+              
+//           }
+         
+//       }
+//   }
+// }

@@ -1,0 +1,92 @@
+.ant-layout-header { 
+    color: rgba(0, 0, 0, 0.85);
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    z-index: 10;
+    position: fixed;
+    gap: 180px;
+    .header-link{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        a{
+            color: #000000;
+            &:hover{
+                background-color: rgba($color: #000000, $alpha: 0.05);
+                padding: 24px; 
+            }
+        }
+    }
+    .header-logo{
+        width: 95px;
+        display: flex;
+        justify-content: center;
+        margin: 0 -80px 0 80px;
+    }
+    .header-icon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+
+        .searchOutlined{
+            display: flex;
+        }
+        .settingOutLined{
+            span{
+                svg{
+                    font-size: large;
+                }
+            } 
+        }
+        .contentWallet{
+            button{
+                border-radius: 30px;
+                padding: 10 25px;
+                font-size: 12px;
+                color: white;
+                border: none;
+                transition: transform 0.2s ease 0s;
+                box-shadow: rgb(0 0 0 / 40%) 0px 2px 15px -3px;
+                background: rgb(24, 198, 131) !important;
+                cursor: pointer;  
+            }
+        }
+    }
+  }
+//   ///////////////////////////////////////
+//   @media only screen and (max-width:685px) {
+
+//     .ant-layout-header{
+//         width: 100%;
+//         gap: 0;
+//         box-shadow:  rgb(0 0 0 / 40%) 0px 2px 15px -3px;
+        
+//         .header-link{
+//             display: none;
+//         }
+//         .header-logo{
+//             justify-content: center;
+//         }
+//         .header-icon{
+//             .searchOutlined{
+//                 justify-content: right !important;
+               
+//              }
+//             .settingOutLined,.contentWallet{
+//                 display: none;
+                
+//             }
+           
+//         }
+//     }
+//   }
+
+
+
+
+
